@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>신청하기</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand mr-5" href="/">
+            <img src="images/logo.png" alt="">
+            <span>
+              ExP
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">메인페이지 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="purpose.html">동아리에 대하여</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="video.html">홍보 영상</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="curriculum.html"> 교육과정 </a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn" href="apply.html">#신청하기</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+  <div class="body_bg layout_padding">
+
+
+    <!-- contact section -->
+
+    <section class="contact_section">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            지원 서류
+          </h2>
+        </div>
+      </div>
+      <div class="container contact_bg layout_padding2-top">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact_form ">
+              <form action="https://port-0-expapi-f9ohr2alrs1nugl.sel5.cloudtype.app/" method="post">
+                <input type="text" placeholder="(필수) 이름" name="name" minlength="2" maxlength="4" required>
+                <input type="text" placeholder="(필수) 학번  |  Ex. 10401" name="stuId" minlength="5" maxlength="5" required>
+                <input type="email" placeholder="(필수) 이메일" name="email" maxlength="40" required>
+                <input type="text" placeholder="(필수) 방과후 활동 가능 요일 및 시간  |  Ex) 월수금 9시 까지" name="schedule" class="message_input" required>
+                <input type="text" placeholder="(추천) 지원 동기 및 각오" name="stuM" class="message_input">
+                <input type="text" placeholder="(선택) Instagram Id 또는 kakaotalk Id" name="snsId">
+                <button type="submit">
+                  신청하기!
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact section -->
+  </body>
+
+</html>
